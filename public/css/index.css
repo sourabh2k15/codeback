@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    overflow-y: hidden;
+}
+
+div#editor {
+    width: 100%;
+    float: left;
+    margin-bottom: 1%;
+}
+
+div#editor div {
+    float: left;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    font-size: 1.1em;
+    border: 1px solid black;
+    padding: 1%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#result {
+    border-top: 1px solid black;
+}
+
+#actions {
+    z-index: 10;
+    position: absolute;
+    width: 15%;
+    left: 75%;
+    top: 0;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 7px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
